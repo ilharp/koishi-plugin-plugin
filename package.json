@@ -1,0 +1,38 @@
+{
+  "name": "koishi-plugin-plugin",
+  "description": "Say \"plugin\" in \"plugin\" command.",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "atsc -b"
+  },
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin"
+  ],
+  "peerDependencies": {
+    "koishi": "^4.10.0"
+  },
+  "devDependencies": {
+    "atsc": "^1.2.2",
+    "koishi": "^4.11.3",
+    "typescript": "^4.9.4"
+  },
+  "koishi": {
+    "description": {
+      "en": "Say \"plugin\" in \"plugin\" command.",
+      "zh": "在「插件」指令中回复「插件」。"
+    },
+    "hidden": true,
+    "locales": [
+      "en"
+    ]
+  }
+}
